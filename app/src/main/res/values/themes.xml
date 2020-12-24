@@ -1,0 +1,4 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.控手机" parent="Theme.AppCompat.Light"></style>
+</resources>
