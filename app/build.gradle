@@ -31,12 +31,15 @@ android {
 }
 
 dependencies {
-
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.2'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.3.0'
 
-    implementation 'com.yanzhenjie.andserver:api:2.1.7'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    annotationProcessor 'com.yanzhenjie.andserver:processor:2.1.7'
+    implementation 'org.nanohttpd:nanohttpd:2.3.1'
+    implementation 'org.nanohttpd:nanohttpd-websocket:2.3.1'
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    implementation 'com.blankj:utilcodex:1.30.6'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.king.zxing:zxing-lite:1.1.7-androidx'
 }
